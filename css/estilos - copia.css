@@ -1,0 +1,474 @@
+/*tipografia web */ 
+body { font-family: 'Quicksand', sans-serif; 
+
+}
+
+/* Estilos header */ 
+
+.fondoazul {
+    background-color: rgb(19, 80, 194);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.fondo {
+    background-color: rgb(19, 80, 194);
+    background-repeat: no-repeat;
+    background-size: cover;  
+   
+}  
+
+
+header{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.imge img {
+    margin: 0 auto;
+    display: block;
+    width: 50%;
+    padding-top: 100px;
+}
+
+
+.logo img {
+    margin: 0 auto;
+    display: block;
+    width: 80px;
+    padding: 1px 0;   
+}
+
+a, .elnavega .menu .navbar-nav .nav-item .nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+.elnavega .menu  {
+    list-style: none;
+    justify-content: center;
+    width: 100%;
+
+}
+    
+.elnavega .menu li, .elnavega .menu .navbar-nav .nav-item {
+    color: rgb(12, 11, 11);
+    font-weight: bolder;
+    font-size: 1rem;
+    margin-bottom: 0px;
+    padding: 0 40px;
+}
+
+/*estilos main */ 
+
+.padreimg img{
+    margin: 0 auto;
+    display:block ;
+    width: 600px;
+    padding-top: 20px;
+} 
+
+.contenedortexto {
+    background-color: rgba(182, 182, 182, 0.39);
+    padding: 100px;    
+    
+  } 
+  .primerparrafo {
+    font-weight: bold ;
+   
+ 
+  } 
+ 
+  .contenedortexto h1{
+  margin-bottom: 50px; 
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 50px; 
+  text-align: center;
+}
+
+
+
+/* Estilos para dispositivos móviles */
+@media screen and (max-width:500px){
+  /* Contenedor principal */
+  .fondoazul {
+    padding: 30px;
+    height: auto;
+  }
+
+
+  .imge {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .contenedortexto {
+  padding: 30px;
+  display: flex; 
+  flex-direction: column;   
+  align-items: center;  
+}
+
+.primerparrafo {
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: bold ;
+  padding-right: 30px;
+  margin-left: 5px;
+
+}
+.contenedortexto h1{
+    margin-bottom: 5px; 
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 35px; 
+    align-items: center;
+    padding-right: 30px;
+    margin-left: 20px;
+  }
+}
+
+  .boxpadre {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+  
+.box {
+padding: 20px;
+text-align: center;
+}
+
+.box img {
+max-width: 100%;
+height: auto;
+}
+
+.titulo {
+margin-top: 10px;
+}
+
+.parrafo {
+margin-top: 10px;
+}
+
+.quirofa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+.quirofa img {
+max-width: 100%;
+}
+
+.quiro {
+margin-top: 10px;
+font-weight: bold;
+}
+
+.quirofa p {
+margin-top: 10px;
+}
+    
+.espacios {
+background-color: rgb(58, 70, 240);
+margin-top: 30px;
+text-align: center;
+}
+@media screen and (max-width: 768px) {
+    .quirofa img {
+      max-width: 80%;
+    }
+  }
+/*tamaño celular  - 320px -420px -480px (500px) */
+ @media screen and (max-width:500px){
+}
+.quirofa img {
+    max-width: 80%;
+ 
+}
+    label{
+    font-size: 16px;
+}
+
+form{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+form div{   
+    margin-top: 10px;
+}
+
+.ub {
+margin-left: 10px;
+padding-top: 30px;
+height: 30px;
+margin-bottom: 10px;
+}
+
+.co { 
+  display: flex;
+  
+  }
+  
+  .cont { 
+   margin-left: 10px;
+    
+    }
+  .contacto {
+    display: flex;
+  }
+  
+  .contact{
+  width: 50%;
+  margin-right: 20px;
+  text-align: center;
+  margin-left: 70px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+  
+  
+  .form {
+   display: flex;
+   justify-content: space-around;
+   padding-bottom: 100px;
+   align-items: center;
+  }
+  
+  
+  .form section {
+  width: 350px;
+  }
+  
+  .fo {
+   padding-bottom: 20px;
+    background-color: #5128e6;
+    border: 3px solid rgb(13, 13, 14) ;
+    color:white ;
+  }
+  
+
+  .texto {
+    margin-top: 3px;
+    text-align: center;
+ 
+     }
+  
+  .mapa {
+  width: 100%;
+}
+
+
+    /* Media query para pantallas de 320px a 500px */
+  @media screen and (max-width:500px){
+    .contact{
+      width: 50%;
+     text-align: center;
+      font-weight: bold;
+      margin-top: 10px;
+      
+    
+      }
+      
+      
+      .form { 
+      width: 100%;
+      display: inline;
+       justify-content: space-around;
+       padding-bottom: 100px;
+       align-items: center;
+     
+      }
+      
+      
+      .form section {
+      width: 100%
+      }
+      
+      .fo {
+        background-color: #271761;
+  
+      }
+  
+      .texto {
+       margin-left: 5px;
+        text-align: center;
+         margin-top: 3px;
+         margin-right: 20px;
+
+         }
+      
+   .mapa {
+      width: 100%;
+     }
+  
+   
+    }
+    
+    
+      .somos {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex; 
+    flex-direction: column;   
+    align-items: center;  
+    
+}
+ 
+
+.t{
+font-weight: bold;
+        margin-top: 4%;
+        margin-bottom: 3%;
+        text-align: center;
+      
+}
+
+.profesionales{
+width: 100vw;
+height: 300px ;
+}
+  
+.title {
+  font-weight: bold;
+        margin-top: 1%;
+        margin-bottom: 4%;
+        text-align: center;
+        font-size: 35px;
+
+
+      }
+        /* Estilos generales */
+
+/* Estilos para dispositivos móviles con pantalla de 320px a 500px */
+@media screen and (max-width: 500px) {
+.somos {
+text-align: center;
+align-items: center;
+
+}
+
+.title {
+  font-weight: bold;
+        margin-top: 6%;
+        margin-bottom: 9%;      
+        text-align: center;
+        font-size: 25px;
+}
+
+.t{
+font-weight: bold;
+        margin-top: 6%;
+        margin-bottom: 9%;   
+        text-align: center;
+        font-size: 20px;
+      
+      }
+    
+          
+      }
+
+/* .cards {
+    display:flex; 
+    flex-direction:column; /*para que quede en columna */
+/*     width:100%;
+   margin-bottom: 30px;
+}
+.cards .card div {
+    display:flex; */  /*para que lo que está dentro del div, dentro de card, dentro de cards, se ponga en fila */ 
+
+    .card {
+       height: 500px;
+      display:flex; 
+      flex-direction:column; 
+      align-items:center; 
+      
+      }
+      .card div {
+          height: 500px;
+        display:flex; 
+          flex-direction:column; 
+          align-items:center; 
+
+        }
+
+      
+      .ortopedi {
+      margin-top: 50px;
+      padding-bottom: 10px;
+     text-align: center;
+     font-size: 25px;
+    font-weight: bold;
+    }
+      .peri {
+      margin-top: 50px;
+      padding-bottom: 10px;
+      text-align: center;
+      font-size: 25px;
+      font-weight: bold;
+    }
+      
+      .endo {
+      margin-top: 50px;
+      padding-bottom:10px;
+      text-align: center;
+      font-size: 25px;
+     font-weight: bold;
+      }
+      .dento{
+      margin-top: 50px;
+      padding-bottom: 10px;
+      text-align: center;
+      font-size: 25px;
+      font-weight: bold;
+      
+    }
+
+    
+      .tx { 
+    width: 300px;
+    height: auto;  
+    padding-left: 5px;
+    text-align: center;
+     padding-top: 20px;
+     }
+ 
+ 
+ .ubpadre {
+  display: grid;
+  grid-column-start: 20px;
+  }
+
+/*estilo footer */ 
+
+.piedepagina {
+    background-color: rgb(138, 128, 128);
+    text-align: center;
+    color: white;
+
+  }
+
+.piedepagina h2{
+margin:0;
+font-family: 'Quicksand', sans-serif; 
+font-size: 20px;
+font-weight: bolder;
+
+}
+.piedepagina p{
+    font-family: 'Quicksand', sans-serif; 
+    margin:0;
+font-size: 15px;
+
+}
