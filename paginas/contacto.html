@@ -1,0 +1,114 @@
+<!DOCTYPE html> <!--Tipo de documento-->
+<html lang="es"> <!--Lenguaje del sitio-->
+
+<head> <!--Parte Privada del sitio-->
+  <meta charset="UTF-8"> <!--Leer caract. especiales (ñ,ò,$)-->
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!--compatibilidad con internet explorar - Edge-->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Adapacion a dispositivos moviles-->
+  <title>B&B.odontos</title> <!--Titulo del sitio (lo que ven en la 
+     pestaña del navegador)-->
+  <!--favicon-->
+  <link rel="shortcut icon" href="../multimedia/sin-fondo.png" type="image/x-icon">
+  <!--google from-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+  <!--Bootstrap -->
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <!--css-->
+  <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body> <!--contenido de todo mi sitio-->
+<header class="fondo">
+    <nav class="navbar navbar-expand-lg elnavega">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse menu" id="navbarNav">
+          <ul class="navbar-nav">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./consultorio.html">Consultorio</a></li>
+            <li><a href="./nosotros.html">Nosotros</a></li>
+            <li><a href="./tratamientos.html">Tratamientos</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+          </ul>
+    </nav>
+    <div class="logo">
+      <img src="../multimedia/sin-fondo.png" alt="logo sin fondo">
+    </div>
+  </header>
+  <body> <!--contenido del sitio-->
+    <main>
+      <h1 class="title">Contactanos</h1>
+      <div class="form"> 
+      <section class ="fo">
+        <h3 class="cont">Envienos un mensaje: </h3>
+        <form action="" method="get">
+          <div>
+            <label for="nombre" class="label">Nombre y apellido:</label>
+            <input type="text" name="nombre" id="nombre">
+          </div>
+  
+          <div>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" name="email" id="email">
+          </div>
+          <div>
+            <label for="telefono">Teléfono:</label>
+            <input type="number" name="telefono" id="telefono">
+          </div>
+  
+          <div>
+            <label for="pais">Desde donde nos escribís?</label>
+            <select name="pais" id="pais">
+              <option value="AR">Argentina</option>
+              <option value="CH">Chile</option>
+              <option value="URU">Uruguay</option>
+              <option value="Otro">Otro</option>
+            </select>
+          </div>
+          <div>
+            <label for="comentarios">Comentarios</label>
+            <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+          </div>
+          <input type="submit" value="Enviar ">
+        </form>
+      </section>
+         <section class="ubpadre">
+        <div>        
+            <div>
+              <h2 class="contact">Contacto</h2>
+            </div>
+            <div>
+              <p class="texto">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quae, animi sed reiciendis dolores ex
+                consectetur dignissimos facere iusto quos cumque fuga ducimus esse modi soluta voluptatum impedit
+                ratione sequi Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              </p>
+            </div>
+        </section>
+    </div>
+    <iframe class ="mapa"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2905.93025064904!2d-65.30331920000005!3d-43.2528836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbe0144ca1850fd6f%3A0x1015f9615f8e6d34!2sDon%20Bosco%20291%2C%20Trelew%2C%20Chubut!5e0!3m2!1ses-419!2sar!4v1683596409565!5m2!1ses-419!2sar"
+      height="100" style="border:0;" allowfullscreen="" loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+  </main>
+    <footer class="piedepagina">
+      <h2>B&B Odontología</h2>
+      <p>Trelew 1524 - Chubut
+        Teléfono: 4408925 - Mail: byb@odontologia.com.ar</p>
+      <p>Copyright © B&B Ondontos</p>
+    </footer>
+    <!--scrip js de bootstrap-->
+  <script src="../js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
