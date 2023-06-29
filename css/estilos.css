@@ -94,11 +94,13 @@ header .elnavega .menu .navbar-nav .nav-item {
   padding: 100px;
 }
 .contenedortexto h1 {
-  margin-bottom: 20px;
-  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
   font-weight: bold;
   font-size: 50px;
   text-align: center;
+  margin-top: 10px;
+  padding-bottom: 50px;
 }
 
 .primerparrafo {
@@ -149,7 +151,7 @@ header .elnavega .menu .navbar-nav .nav-item {
 }
 
 .espacios {
-  background-color: #0b3de1;
+  background-color: rgb(19, 80, 194);
   margin-top: 30px;
   text-align: center;
   color: white;
@@ -251,7 +253,7 @@ header .elnavega .menu .navbar-nav .nav-item {
   width: 50%;
   margin-right: 20px;
   text-align: center;
-  margin-left: 70px;
+  margin-left: 90px;
   font-weight: bold;
   margin-top: 20px;
 }
@@ -276,6 +278,7 @@ header .elnavega .menu .navbar-nav .nav-item {
 .texto {
   margin-top: 3px;
   text-align: center;
+  font-size: 20px;
 }
 
 .mapa {
