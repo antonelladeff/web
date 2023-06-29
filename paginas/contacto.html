@@ -50,21 +50,21 @@
       <section class ="fo">
         <h3 class="cont">Envienos un mensaje: </h3>
         <form action="" method="get">
-          <div>
+          <div class ="datos">
             <label for="nombre" class="label">Nombre y apellido:</label>
             <input type="text" name="nombre" id="nombre">
           </div>
   
-          <div>
+          <div class="datos">
             <label for="email">Correo electrónico:</label>
             <input type="email" name="email" id="email">
           </div>
-          <div>
+          <div class ="datos">
             <label for="telefono">Teléfono:</label>
             <input type="number" name="telefono" id="telefono">
           </div>
   
-          <div>
+          <div class="datos">
             <label for="pais">Desde donde nos escribís?</label>
             <select name="pais" id="pais">
               <option value="AR">Argentina</option>
@@ -73,12 +73,13 @@
               <option value="Otro">Otro</option>
             </select>
           </div>
-          <div>
+          <div class ="datos">
             <label for="comentarios">Comentarios</label>
             <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
           </div>
-          <input type="submit" value="Enviar ">
-        </form>
+          </form>
+          <button class="boton boton--aceptar">Aceptar</button>
+          <button class="boton boton--cancelar">Cancelar</button>
       </section>
          <section class="ubpadre">
         <div>        

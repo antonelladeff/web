@@ -1,0 +1,22 @@
+/*extend*/
+
+.boton {
+    width: 100px;
+    height: 30px;
+    border: solid 1px black;
+    background-color: blue;
+}
+
+
+.boton--aceptar {
+    @extend .boton;
+    background-color: rgb(16, 17, 20);
+
+}
+
+
+.boton--cancelar {
+    @extend .boton;
+    background-color: rgb(186, 6, 6);
+
+}

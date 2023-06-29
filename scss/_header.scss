@@ -1,0 +1,65 @@
+/*Header*/ 
+
+.fondoazul {
+    background-color: $colorPrincipal ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.fondo {
+    background-color: $colorPrincipal ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+header {
+    text-align: center;
+    padding-top: 30px;
+
+
+    .imge {
+        img {
+            margin: 0 auto;
+            display: block;
+            width: 50%;
+            padding-top: 100px;
+        }
+    }
+
+    .elnavega {
+
+        .menu {
+            list-style: none;
+            justify-content: center;
+            width: 100%;
+
+            a,
+            .navbar-nav .nav-item .nav-link {
+                text-decoration: none;
+                color: $colorsecundario ;
+            }
+
+
+            li,
+            .navbar-nav .nav-item {
+                color: rgb(12, 11, 11);
+                font-weight: bolder;
+                font-size: 1rem;
+                margin-bottom: 0px;
+                padding: 0 40px;
+            }
+
+        }
+    }
+}
+
+.logo img {
+    margin: 0 auto;
+    display: block;
+    width: 80px;
+    padding: 1px 0;
+}
+
