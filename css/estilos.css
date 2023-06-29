@@ -317,13 +317,13 @@ header .elnavega .menu .navbar-nav .nav-item {
     align-items: center;
   }
   .contenedortexto h1 {
-    margin-bottom: 5px;
-    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
     font-weight: bold;
-    font-size: 35px;
-    align-items: center;
-    padding-right: 30px;
-    margin-left: 20px;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
   }
   .primerparrafo {
     margin-top: 5px;
@@ -374,7 +374,7 @@ header .elnavega .menu .navbar-nav .nav-item {
     font-size: 20px;
   }
 }
-/* Media query para pantallas de 768px */
+/* Media query para pantallas de 768px tablet*/
 @media screen and (max-width: 768px) {
   .form {
     margin-left: 20px;
