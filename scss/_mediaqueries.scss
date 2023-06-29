@@ -89,6 +89,26 @@
 
 
 }
+/* Media query para pantallas de 768px */
+@media screen and (max-width:768px) {
+
+.form {
+ margin-left: 20px;
+}
+
+
+.form section {
+	width: 100%;
+}
+
+.title {
+	font-weight: bold;
+	margin-top: 6%;
+	margin-bottom: 9%;
+	text-align: center;
+	font-size: 25px;
+}
+}
 
 /* Media query para pantallas de 320px a 500px */
 @media screen and (max-width:500px) {
@@ -116,17 +136,18 @@
 		width: 100%;
 	}
 	
-
-
-	.fo {
-		background-color: #1e08ea;
-
-
+	.title {
+		font-weight: bold;
+		margin-top: 6%;
+		margin-bottom: 9%;
+		text-align: center;
+	    font-size: 25px;
 	}
 
 	.boton {
-		margin-top: 10px;
 		margin-left: 30px;
+		margin-top: 5px;
 	}
 
 }
+

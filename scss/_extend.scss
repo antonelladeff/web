@@ -5,18 +5,20 @@
     height: 30px;
     border: solid 1px black;
     background-color: blue;
+    margin-left: 70px ;
+    color: $colorsecundario ; 
 }
 
 
 .boton--aceptar {
     @extend .boton;
-    background-color: rgb(16, 17, 20);
+    background-color: rgb(23, 48, 106);
 
 }
 
 
 .boton--cancelar {
     @extend .boton;
-    background-color: rgb(186, 6, 6);
+    background-color: rgb(249, 6, 6);
 
 }

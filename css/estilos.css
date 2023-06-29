@@ -1,21 +1,28 @@
 @charset "UTF-8";
+/*VARIABLES*/
 /*extend*/
 .boton, .boton--cancelar, .boton--aceptar {
   width: 100px;
   height: 30px;
   border: solid 1px black;
   background-color: blue;
+  margin-left: 70px;
+  color: white;
 }
 
 .boton--aceptar {
-  background-color: rgb(16, 17, 20);
+  background-color: rgb(23, 48, 106);
 }
 
 .boton--cancelar {
-  background-color: rgb(186, 6, 6);
+  background-color: rgb(249, 6, 6);
 }
 
-/*VARIABLES*/
+.newbox {
+  display: flex;
+  align-items: center;
+}
+
 /*Header*/
 .fondoazul {
   background-color: rgb(19, 80, 194);
@@ -66,6 +73,7 @@ header .elnavega .menu .navbar-nav .nav-item {
   padding: 1px 0;
 }
 
+/*main*/
 .padreimg img {
   margin: 0 auto;
   display: block;
@@ -78,7 +86,7 @@ header .elnavega .menu .navbar-nav .nav-item {
   padding: 100px;
 }
 .contenedortexto h1 {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   padding-bottom: 10px;
   font-weight: bold;
   font-size: 50px;
@@ -219,15 +227,6 @@ header .elnavega .menu .navbar-nav .nav-item {
   margin-top: 15px;
 }
 
-.boton, .boton--aceptar, .boton--cancelar {
-  width: 100x;
-  height: 30px;
-  border: solid 2px black;
-  background-color: rgb(73, 7, 228);
-  margin-left: 60px;
-  color: white;
-}
-
 .co {
   display: flex;
 }
@@ -355,6 +354,22 @@ header .elnavega .menu .navbar-nav .nav-item {
     font-size: 20px;
   }
 }
+/* Media query para pantallas de 768px */
+@media screen and (max-width: 768px) {
+  .form {
+    margin-left: 20px;
+  }
+  .form section {
+    width: 100%;
+  }
+  .title {
+    font-weight: bold;
+    margin-top: 6%;
+    margin-bottom: 9%;
+    text-align: center;
+    font-size: 25px;
+  }
+}
 /* Media query para pantallas de 320px a 500px */
 @media screen and (max-width: 500px) {
   .contact {
@@ -373,12 +388,16 @@ header .elnavega .menu .navbar-nav .nav-item {
   .form section {
     width: 100%;
   }
-  .fo {
-    background-color: #1e08ea;
+  .title {
+    font-weight: bold;
+    margin-top: 6%;
+    margin-bottom: 9%;
+    text-align: center;
+    font-size: 25px;
   }
   .boton, .boton--aceptar, .boton--cancelar {
-    margin-top: 10px;
     margin-left: 30px;
+    margin-top: 5px;
   }
 }
 /*Footer*/

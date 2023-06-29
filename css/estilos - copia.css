@@ -1,11 +1,11 @@
-/*tipografia web */ 
-body { font-family: 'Quicksand', sans-serif; 
+tipografia web 
+/* body { font-family: 'Quicksand', sans-serif; 
 
-}
+} */
 
 /* Estilos header */ 
 
-.fondoazul {
+/* .fondoazul {
     background-color: rgb(19, 80, 194);
     background-repeat: no-repeat;
     background-size: cover;
@@ -65,7 +65,7 @@ a, .elnavega .menu .navbar-nav .nav-item .nav-link {
 
 /*estilos main */ 
 
-.padreimg img{
+/* .padreimg img{
     margin: 0 auto;
     display:block ;
     width: 600px;
@@ -294,8 +294,7 @@ margin-bottom: 10px;
       width: 100%
       }
       
-      .fo {
-        background-color: #271761;
+    
   
       }
   
@@ -471,4 +470,4 @@ font-weight: bolder;
     margin:0;
 font-size: 15px;
 
-}
+} 

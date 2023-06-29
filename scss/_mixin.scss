@@ -1,0 +1,10 @@
+@mixin flex-center{ 
+    display:flex;
+    align-items: center;
+    }
+    
+    .newbox{
+    @include flex-center;
+
+
+}
