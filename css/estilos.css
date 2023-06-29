@@ -11,7 +11,7 @@
 }
 
 .boton--aceptar {
-  background-color: rgb(23, 48, 106);
+  background-color: rgb(88, 88, 89);
 }
 
 .boton--cancelar {
@@ -74,6 +74,14 @@ header .elnavega .menu .navbar-nav .nav-item {
 }
 
 /*main*/
+.title {
+  font-weight: bold;
+  margin-top: 1%;
+  margin-bottom: 4%;
+  text-align: center;
+  font-size: 35px;
+}
+
 .padreimg img {
   margin: 0 auto;
   display: block;
@@ -280,6 +288,15 @@ header .elnavega .menu .navbar-nav .nav-item {
   margin-bottom: 15px;
 }
 
+/*mis h1 */
+.title {
+  font-weight: bold;
+  margin-top: 1%;
+  margin-bottom: 4%;
+  text-align: center;
+  font-size: 35px;
+}
+
 /* Estilos para dispositivos móviles */
 @media screen and (max-width: 500px) {
   .fondoazul {
@@ -363,11 +380,7 @@ header .elnavega .menu .navbar-nav .nav-item {
     width: 100%;
   }
   .title {
-    font-weight: bold;
-    margin-top: 6%;
-    margin-bottom: 9%;
-    text-align: center;
-    font-size: 25px;
+    font-size: 30px;
   }
 }
 /* Media query para pantallas de 320px a 500px */
@@ -419,15 +432,6 @@ header .elnavega .menu .navbar-nav .nav-item {
 /*tipografia web */
 body {
   font-family: "Quicksand", sans-serif;
-}
-
-/*mis h1 */
-.title {
-  font-weight: bold;
-  margin-top: 1%;
-  margin-bottom: 4%;
-  text-align: center;
-  font-size: 35px;
 }
 
 /*# sourceMappingURL=estilos.css.map */
