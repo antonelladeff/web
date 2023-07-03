@@ -1,7 +1,6 @@
 @charset "UTF-8";
-/*VARIABLES*/
-/*extend*/
-.boton, .boton--cancelar, .boton--aceptar {
+/*VARIABLES*/ /*extend*/
+.boton, .boton--cancelar, .boton--enviar {
   width: 100px;
   height: 30px;
   border: solid 1px black;
@@ -10,14 +9,15 @@
   color: white;
 }
 
-.boton--aceptar {
-  background-color: rgb(88, 88, 89);
+.boton--enviar {
+  background-color: rgb(74, 74, 77);
 }
 
 .boton--cancelar {
   background-color: rgb(249, 6, 6);
 }
 
+/*mixin*/
 .newbox {
   display: flex;
   align-items: center;
@@ -91,7 +91,7 @@ header .elnavega .menu .navbar-nav .nav-item {
 
 .contenedortexto {
   background-color: rgba(182, 182, 182, 0.39);
-  padding: 100px;
+  padding: 50px;
 }
 .contenedortexto h1 {
   display: flex;
@@ -100,7 +100,7 @@ header .elnavega .menu .navbar-nav .nav-item {
   font-size: 50px;
   text-align: center;
   margin-top: 10px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 
 .primerparrafo {
@@ -151,7 +151,7 @@ header .elnavega .menu .navbar-nav .nav-item {
 }
 
 .espacios {
-  background-color: rgb(19, 80, 194);
+  background: linear-gradient(rgb(19, 71, 202), rgb(100, 99, 100));
   margin-top: 30px;
   text-align: center;
   color: white;
@@ -270,7 +270,7 @@ header .elnavega .menu .navbar-nav .nav-item {
 
 .fo {
   padding-bottom: 10px;
-  background-color: rgb(19, 80, 194);
+  background: linear-gradient(rgb(19, 71, 202), rgb(100, 99, 100));
   border: 3px solid rgb(13, 13, 14);
   color: white;
 }
@@ -329,10 +329,9 @@ header .elnavega .menu .navbar-nav .nav-item {
     margin-top: 5px;
     font-size: 16px;
     font-weight: bold;
-    padding-right: 30px;
     margin-left: 5px;
   }
-  .primerparrafo .title {
+  .title {
     font-weight: bold;
     margin-top: 6%;
     margin-bottom: 9%;
@@ -379,41 +378,43 @@ header .elnavega .menu .navbar-nav .nav-item {
   .form {
     margin-left: 20px;
   }
-  .form section {
-    width: 100%;
-  }
   .title {
     font-size: 30px;
+  }
+  .texto {
+    font-size: 18px;
+    width: 270px;
+    height: auto;
+    margin-left: 50px;
+    text-align: center;
+    margin-top: 15px;
   }
 }
 /* Media query para pantallas de 320px a 500px */
 @media screen and (max-width: 500px) {
   .contact {
-    width: 50%;
+    width: 40%;
     text-align: center;
     font-weight: bold;
     margin-top: 10px;
   }
   .form {
-    width: 100%;
     display: inline;
     justify-content: space-around;
-    padding-bottom: 100px;
     align-items: center;
   }
   .form section {
     width: 100%;
   }
-  .title {
-    font-weight: bold;
-    margin-top: 6%;
-    margin-bottom: 9%;
-    text-align: center;
-    font-size: 25px;
+  .boton, .boton--enviar, .boton--cancelar {
+    margin-left: 35px;
+    margin-top: 2px;
   }
-  .boton, .boton--aceptar, .boton--cancelar {
-    margin-left: 30px;
-    margin-top: 5px;
+  .texto {
+    font-size: 16px;
+    margin-left: 20px;
+    text-align: center;
+    margin-top: 15px;
   }
 }
 /*Footer*/

@@ -94,9 +94,9 @@ a, .elnavega .menu .navbar-nav .nav-item .nav-link {
 
 
 /* Estilos para dispositivos móviles */
-@media screen and (max-width:500px){
+/*@media screen and (max-width:500px){
   /* Contenedor principal */
-  .fondoazul {
+  /*.fondoazul {
     padding: 30px;
     height: auto;
   }
@@ -188,7 +188,7 @@ text-align: center;
     }
   }
 /*tamaño celular  - 320px -420px -480px (500px) */
- @media screen and (max-width:500px){
+ /*@media screen and (max-width:500px){
 }
 .quirofa img {
     max-width: 80%;
@@ -269,7 +269,7 @@ margin-bottom: 10px;
 
 
     /* Media query para pantallas de 320px a 500px */
-  @media screen and (max-width:500px){
+  /*@media screen and (max-width:500px){
     .contact{
       width: 50%;
      text-align: center;
@@ -294,7 +294,8 @@ margin-bottom: 10px;
       width: 100%
       }
       
-    
+      .fo {
+        background-color: #271761;
   
       }
   
@@ -351,7 +352,7 @@ height: 300px ;
         /* Estilos generales */
 
 /* Estilos para dispositivos móviles con pantalla de 320px a 500px */
-@media screen and (max-width: 500px) {
+/*@media screen and (max-width: 500px) {
 .somos {
 text-align: center;
 align-items: center;
@@ -387,7 +388,7 @@ font-weight: bold;
 .cards .card div {
     display:flex; */  /*para que lo que está dentro del div, dentro de card, dentro de cards, se ponga en fila */ 
 
-    .card {
+   /* .card {
        height: 500px;
       display:flex; 
       flex-direction:column; 

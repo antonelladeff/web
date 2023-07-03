@@ -17,7 +17,7 @@
 }
 .contenedortexto {
     background-color: rgba(182, 182, 182, 0.39);
-    padding: 100px;
+    padding: 50px;
 	h1 {
 		display: flex;
 		justify-content: center;
@@ -25,7 +25,7 @@
 		font-size: 50px;
 		text-align: center;
 		margin-top: 10px;
-		padding-bottom: 50px;
+		padding-bottom: 30px;
 	}
 }
 .primerparrafo {
@@ -71,7 +71,7 @@
 	font-weight: bold;
 }
 .espacios {
-	background-color:$colorPrincipal;
+	background:linear-gradient(rgb(19, 71, 202), rgb(100, 99, 100));
 	margin-top: 30px;
 	text-align: center;
 	color: $colorsecundario;
@@ -151,7 +151,6 @@
 	
 }
 
-
 .co {
 	display: flex;
 }
@@ -180,11 +179,12 @@
 }
 .fo {
 	padding-bottom: 10px;
-	background-color: $colorPrincipal;
+	background:linear-gradient(rgb(19, 71, 202), rgb(100, 99, 100));
 	border: 3px solid rgb(13, 13, 14);
 	color: $colorsecundario;
 }
-.texto {
+
+	.texto {
 	margin-top: 3px;
 	text-align: center;
 	font-size: 20px;
@@ -207,3 +207,4 @@ margin-bottom: 15px;
 	text-align: center;
 	font-size: 35px;
 }
+
