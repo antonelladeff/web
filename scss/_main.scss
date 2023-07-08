@@ -1,12 +1,13 @@
-/*main*/
+/*mis h1 */ 
 .title {
 	font-weight: bold;
-	margin-top: 1%;
-	margin-bottom: 4%;
 	text-align: center;
 	font-size: 35px;
+	margin-top: 1%;
+	margin-bottom: 4%;
 }
 
+/*main*/ 
 .padreimg {
 	img {
 		margin: 0 auto;
@@ -51,7 +52,7 @@
 	color:$colorsecundario ;
 }
 .parrafo {
-	margin-top: 10px;
+	margin-top: 5px;
 	color: $colorsecundario;
 }
 .quirofa {
@@ -72,7 +73,7 @@
 }
 .espacios {
 	background:linear-gradient(rgb(19, 71, 202), rgb(100, 99, 100));
-	margin-top: 30px;
+	margin-top: 20px;
 	text-align: center;
 	color: $colorsecundario;
 }
@@ -157,14 +158,8 @@
 .cont {
 	margin-left: 10px;
 }
-.contacto {
-	display: flex;
-}
 .contact {
-	width: 50%;
-	margin-right: 20px;
 	text-align: center;
-	margin-left: 90px;
 	font-weight: bold;
 	margin-top: 20px;
 }
@@ -173,8 +168,9 @@
 	justify-content: space-around;
 	padding-bottom: 100px;
 	align-items: center;
+	gap: 30px ;
 	section {
-		width: 400px;
+		width: 500px;
 	}
 }
 .fo {
@@ -193,17 +189,21 @@
 	width: 100%;
 }
 
-
 .datos {
 margin-top: 20px;
 margin-left: 10px;
 margin-bottom: 15px;
 }
+.botones {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+
+}
 /*mis h1 */ 
 .title {
 	font-weight: bold;
-	margin-top: 1%;
-	margin-bottom: 4%;
 	text-align: center;
 	font-size: 35px;
 }
