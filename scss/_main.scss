@@ -77,8 +77,10 @@
 .espacios {
 	background: linear-gradient(rgb(19, 71, 202), rgb(100, 99, 100));
 	margin-top: 20px;
+	padding-top: 10px;
 	text-align: center;
 	color: $colorsecundario;
+
 }
 
 .somos {
@@ -106,6 +108,8 @@
 .mb-5 {
 	gap: 20px;
 }
+
+
 
 .card {
 	height: 400px;
@@ -163,6 +167,10 @@
 
 }
 
+.mb-5 {
+	gap: 20px;
+}
+
 
 .co {
 	display: flex;
@@ -189,12 +197,12 @@
 	margin-right: 10px;
 }
 
-section {
-	width: 500px;
+.form section {
+	width: 100% ;
+
 }
 
 .fo {
-	width: 500px;
 	padding-bottom: 10px;
 	background: linear-gradient(rgb(19, 71, 202), rgb(100, 99, 100));
 	border: 3px solid rgb(13, 13, 14);
@@ -211,10 +219,16 @@ section {
 	width: 100%;
 }
 
-.datos {
+
+form {
 	margin-top: 20px;
 	margin-left: 10px;
-	margin-bottom: 15px;
+
+	div {
+		margin-top: 20px;
+		margin-left: 20px;
+		margin-bottom: 15px;
+	}
 }
 
 .botones {
@@ -222,8 +236,11 @@ section {
 	justify-content: center;
 	align-items: center;
 	gap: 30px;
-
 }
+
+
+
+
 /*mis h1 */
 .title {
 	font-weight: bold;
