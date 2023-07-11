@@ -167,47 +167,74 @@
 }
 
 
-.co {
-	display: flex;
-}
 
-.cont {
-	margin-left: 10px;
-}
 
 .contact {
+	 align-items: center;
 	text-align: center;
 	font-weight: bold;
 	margin-top: 20px;
 
 }
 
-.form {
-	display: flex;
-	justify-content: space-around;
-	padding-bottom: 100px;
-	align-items: center;
-	gap: 30px;
-	margin-left: 20px;
-	margin-right: 10px;
-}
 
-.form section {
-	width: 50% ;
+    .formulario {
+		width: 100%;
+		max-width: 500px;
+		height: 650px;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 20px;
+		background: linear-gradient(rgb(19, 71, 202), rgb(100, 99, 100));
+		border: 2px solid rgb(13, 13, 14);
+		color: $colorsecundario;
 
-}
+	}
+	
 
-.fo {
-	padding-bottom: 10px;
-	background: linear-gradient(rgb(19, 71, 202), rgb(100, 99, 100));
-	border: 3px solid rgb(13, 13, 14);
-	color: $colorsecundario;
-}
+
+    .tituloFormulario {
+      padding-top: 2px;
+	  margin-top: 1px;
+	  text-align: center;
+    }
+
+    .form-label {
+      font-size: 16px;
+    }
+
+    .form-conte {
+      width: 100%;
+   
+    }
+
+    .form-select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+     
+    
+    }
+
+    .form-textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+    
+   
+    }
+
+
 
 .texto {
-	margin-top: 5px;
-	text-align: center;
-	font-size: 20px;
+		font-size: 20px;
+		height: auto;
+		text-align: center;
+		
+	
 }
 
 .mapa {
@@ -215,24 +242,12 @@
 }
 
 
-form {
-
-	margin-left: 10px;
-
-	div {
-	
-		align-items: center;
-		margin-top: 20px;
-		margin-left: 20px;
-		margin-bottom: 15px;
-	}
-}
 
 .botones {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 30px;
+	gap: 80px;
 }
 
 

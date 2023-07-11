@@ -58,53 +58,52 @@
   <body> <!--contenido del sitio-->
     <main>
       <h1 class="title">Contactanos</h1>
-      <div class="form">
-        <section class="fo">
-          <h3 class="cont">Envienos un mensaje: </h3>
-          <form action="" method="get">
-            <div>
-              <label for="nombre" class="label">Nombre y apellido:</label>
-              <input type="text" name="nombre" id="nombre">
-            </div>
-
-            <div>
-              <label for="email">Correo electrónico:</label>
-              <input type="email" name="email" id="email">
-            </div>
-            <div class="datos">
-              <label for="telefono">Teléfono:</label>
-              <input type="number" name="telefono" id="telefono">
-            </div>
-
-            <div>
-              <label for="pais">Desde donde nos escribís?</label>
-              <select name="pais" id="pais">
-                <option value="AR">Argentina</option>
-                <option value="CH">Chile</option>
-                <option value="URU">Uruguay</option>
-                <option value="Otro">Otro</option>
-              </select>
-            </div>
-            <div>
-              <label for="comentarios">Comentarios</label>
-              <textarea placeceholder="comentarios" id="comentarios" cols="30" rows="10"></textarea>
-            </div>   
-           <div class ="botones">
-            <button class="boton boton--enviar" type="submit">Enviar</button>
-            <button class="boton boton--cancelar" type="reset">Cancelar</button>
+      <section>
+        <form class="formulario col-lg-8 col-md-8 col-sm-8 row gx-0 gy-3">
+          <h2 class="tituloFormulario">Envìanos un mensaje</h2>
+          <div class="col-lg-8 col-md-8 col-sm-8">
+            <label for="inputName" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="inputName">
           </div>
-          </form>
-        </section>
-        <section>
-          <div>
-              <h2 class="contact">Contacto</h2>
+          <div class="col-lg-8 col-md-8 col-sm-8">
+            <label for="inputName" class="form-label">Apellido</label>
+            <input type="text" class="form-control" id="inputName">
+          </div>
+          <div class="col-lg-8 col-md-8 col-sm-8">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="col-lg-8 col-md-8 col-sm-8">
+            <label for="inputPais" class="form-label">Desde donde nos escribís?</label>
+            <select id="inputPais" class="form-select form-control">
+              <option selected>Argentina</option>
+              <option>Argentina</option>
+              <option>España</option>
+              <option>Dinamarca</option>
+              <option>Otro</option>
+            </select>
+          </div>
+          <div class="col-lg-8 col-md-8 col-sm-8">
+            <textarea class="form-control" placeholder="Deje su comentario aquí" id="inputTextarea" style="height: 120px"
+              class="form-control"></textarea>
+          </div>
+            <div class ="botones">
+              <button class="boton boton--enviar" type="submit">Enviar</button>
+              <button class="boton boton--cancelar" type="reset">Cancelar</button>
+             </div>
+          </div>
+        </form>
+      </section>
+      </div>
+    </main>
+         <div>
+          <h2 class="contact">Contacto</h2>
             </div>
-            <div>
-              <p class="texto">
+            <div class="texto">
+              <p>
                 Horarios de Atención: Lunes a Viernes de 8:00 A 13:00 hs 
                 y de 16:00 a 20:00hs
-                Dirección: Don Bosco 291
-                Telefono: 2804536322 </p>
+                 </p>
             </div>
         </section>
       </div>
