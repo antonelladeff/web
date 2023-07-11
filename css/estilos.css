@@ -171,19 +171,15 @@ header .elnavega .menu .navbar-nav .nav-item {
   height: 300px;
 }
 
-.mb-5 {
-  gap: 20px;
-}
-
 .card {
-  height: 400px;
+  height: 390px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 2px;
+  margin-top: 20px;
 }
 .card div {
-  height: 400px;
+  height: 390px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -258,7 +254,7 @@ header .elnavega .menu .navbar-nav .nav-item {
 }
 
 .form section {
-  width: 100%;
+  width: 50%;
 }
 
 .fo {
@@ -279,10 +275,10 @@ header .elnavega .menu .navbar-nav .nav-item {
 }
 
 form {
-  margin-top: 20px;
   margin-left: 10px;
 }
 form div {
+  align-items: center;
   margin-top: 20px;
   margin-left: 20px;
   margin-bottom: 15px;
@@ -301,7 +297,7 @@ form div {
   text-align: center;
   font-size: 35px;
   margin-top: 1%;
-  margin-bottom: 4%;
+  margin-bottom: 2%;
 }
 
 /* Estilos para dispositivos móviles */
@@ -345,7 +341,7 @@ form div {
   .quirofa img .title {
     font-weight: bold;
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
     margin-top: 8%;
     margin-bottom: 0%;
   }
@@ -359,7 +355,7 @@ form div {
   .title {
     font-weight: bold;
     text-align: center;
-    font-size: 25px;
+    font-size: 28px;
     margin-top: 3%;
     margin-bottom: 0%;
   }
@@ -389,7 +385,7 @@ form div {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
   }
 }
 /*tamaño celular  - 320px -420px -480px (500px) */
@@ -404,6 +400,9 @@ form div {
     justify-content: space-around;
     align-items: center;
   }
+  .form section {
+    width: 100%;
+  }
   .botones {
     display: flex;
     justify-content: center;
@@ -417,7 +416,7 @@ form div {
   .texto .title {
     font-weight: bold;
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
     margin-top: 3%;
     margin-bottom: 0%;
   }

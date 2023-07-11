@@ -105,21 +105,16 @@
 	height: 300px;
 }
 
-.mb-5 {
-	gap: 20px;
-}
-
-
 
 .card {
-	height: 400px;
+	height: 390px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-top: 2px;
+	margin-top: 20px;
 
 	div {
-		height: 400px;
+		height: 390px;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -198,7 +193,7 @@
 }
 
 .form section {
-	width: 100% ;
+	width: 50% ;
 
 }
 
@@ -221,10 +216,12 @@
 
 
 form {
-	margin-top: 20px;
+
 	margin-left: 10px;
 
 	div {
+	
+		align-items: center;
 		margin-top: 20px;
 		margin-left: 20px;
 		margin-bottom: 15px;
@@ -247,5 +244,5 @@ form {
 	text-align: center;
 	font-size: 35px;
 	margin-top: 1%;
-	margin-bottom: 4%;
+	margin-bottom: 2%;
 }

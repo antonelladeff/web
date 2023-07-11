@@ -47,7 +47,7 @@
 		.title {
 			font-weight: bold;
 			text-align: center;
-			font-size: 25px;
+			font-size: 30px;
 			margin-top: 8%;
 			margin-bottom: 0%;
 
@@ -68,7 +68,7 @@
 	.title {
 		font-weight: bold;
 		text-align: center;
-		font-size: 25px;
+		font-size: 28px;
 		margin-top: 3%;
 		margin-bottom: 0%;
 	}
@@ -105,14 +105,17 @@
 		margin-right: 10px;
 	}
 
+	
+	
 	.botones {
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		gap: 30px;
+		gap: 20px;
 
 	}
 }
+
 
 
 
@@ -131,18 +134,16 @@
 		align-items: center;
 
 	}
-
-
-
-
+	.form section {
+		width: 100% ;
+	}
 	.botones {
-
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		gap: 50px;
 	}
-
+	
 	.texto {
 		font-size: 16px;
 		text-align: center;
@@ -151,7 +152,7 @@
 		.title {
 			font-weight: bold;
 			text-align: center;
-			font-size: 25px;
+			font-size: 30px;
 			margin-top: 3%;
 			margin-bottom: 0%;
 		}
