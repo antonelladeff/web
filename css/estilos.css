@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*VARIABLES*/ /*extend*/
+/* --------------------------- Variables ----------------------------------- */ /* ------------------------------- Extend --------------------------------------- */
 .boton, .boton--cancelar, .boton--enviar {
   width: 100px;
   height: 35px;
@@ -17,13 +17,13 @@
   background-color: rgb(249, 6, 6);
 }
 
-/*mixin*/
+/* ------------------------------- Mixin --------------------------------------- */
 .newbox {
   display: flex;
   align-items: center;
 }
 
-/*Header*/
+/* ------------------------------- Header --------------------------------------- */
 .fondoazul {
   background-color: rgb(19, 80, 194);
   background-repeat: no-repeat;
@@ -73,7 +73,7 @@ header .elnavega .menu .navbar-nav .nav-item {
   padding: 6px 0;
 }
 
-/*main*/
+/* ------------------------------- Home --------------------------------------- */
 .padreimg img {
   margin: 0 auto;
   display: block;
@@ -107,6 +107,7 @@ header .elnavega .menu .navbar-nav .nav-item {
   padding: 10px;
 }
 
+/* ------------------------------- Consultorio--------------------------------------- */
 .boxpadre {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -163,6 +164,7 @@ header .elnavega .menu .navbar-nav .nav-item {
   color: white;
 }
 
+/* ------------------------------- Nosotros --------------------------------------- */
 .somos {
   margin-top: 2%;
   margin-bottom: 2%;
@@ -176,7 +178,7 @@ header .elnavega .menu .navbar-nav .nav-item {
 .contenedordedos {
   width: 80%;
   align-items: center;
-  background: rgb(250, 248, 248);
+  background: rgb(232, 232, 247);
   box-shadow: 0px 19px 10px rgba(15, 14, 14, 0.1333333333);
   border-radius: 20px;
 }
@@ -196,6 +198,7 @@ p {
   height: 300px;
 }
 
+/* ------------------------------- Tratamientos --------------------------------------- */
 .card {
   height: 390px;
   display: flex;
@@ -254,6 +257,7 @@ p {
   gap: 20px;
 }
 
+/* ------------------------------- Contacto --------------------------------------- */
 .contact {
   align-items: center;
   text-align: center;
@@ -319,7 +323,7 @@ p {
   padding-bottom: 30px;
 }
 
-/*mis h1 */
+/* ------------------------------- Mis H1 --------------------------------------- */
 .title {
   font-weight: bold;
   text-align: center;
@@ -328,6 +332,7 @@ p {
   margin-bottom: 2%;
 }
 
+/* ------------------------------- MediaQueries --------------------------------------- */
 /* Media query para pantallas de 768px tablet*/
 @media screen and (max-width: 768px) {
   .primerparrafo {
@@ -456,7 +461,7 @@ p {
     gap: 50px;
   }
 }
-/*Footer*/
+/* ---------------------- Footer ------------------------------ */
 .piedepagina {
   background-color: rgb(138, 128, 128);
   text-align: center;
@@ -472,7 +477,7 @@ p {
   font-size: 15px;
 }
 
-/*tipografia web */
+/* ------------------------------- Tipofrafia web --------------------------------------- */
 body {
   font-family: "Quicksand", sans-serif;
 }

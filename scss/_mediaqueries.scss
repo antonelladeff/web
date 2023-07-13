@@ -1,3 +1,5 @@
+/* ------------------------------- MediaQueries --------------------------------------- */
+
 /* Media query para pantallas de 768px tablet*/
 @media screen and (max-width:768px) {
 
@@ -48,8 +50,6 @@
 	}
 
 }
-
-
 
 
 /*tamaño celular  - 320px -420px -480px (500px) */
@@ -168,10 +168,11 @@
 
 	.formulario {
 		width: 100%;
-
+		
 	}
-	
-		.botones {
+
+
+	.botones {
 		display: flex;
 		justify-content: center;
 		align-items: center;

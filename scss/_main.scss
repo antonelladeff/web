@@ -1,4 +1,4 @@
-/*main*/
+/* ------------------------------- Home --------------------------------------- */
 .padreimg {
 	img {
 		margin: 0 auto;
@@ -36,7 +36,7 @@
 
 }
 
-
+/* ------------------------------- Consultorio--------------------------------------- */
 .boxpadre {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -97,6 +97,7 @@
 	color: $colorsecundario;
 }
 
+/* ------------------------------- Nosotros --------------------------------------- */
 .somos {
 	margin-top: 2%;
 	margin-bottom: 2%;
@@ -110,12 +111,9 @@
 .contenedordedos {
 	width: 80%;
 	align-items: center;
-	background: rgb(250, 248, 248);
+	background: rgb(232, 232, 247);
 	box-shadow: 0px 19px 10px #0f0e0e22;
 	border-radius: 20px;
-
-
-
 }
 
 h2 {
@@ -123,14 +121,10 @@ h2 {
 	margin-top: 10px;
 	margin-bottom: 15px;
 
-
-
 }
 
 p {
 	text-align: center;
-
-
 }
 
 
@@ -140,7 +134,7 @@ p {
 	height: 300px;
 }
 
-
+/* ------------------------------- Tratamientos --------------------------------------- */
 .card {
 	height: 390px;
 	display: flex;
@@ -203,7 +197,7 @@ p {
 }
 
 
-
+/* ------------------------------- Contacto --------------------------------------- */
 
 .contact {
 	align-items: center;
@@ -225,6 +219,7 @@ p {
 	border-radius: 10px;
 	color: $colorsecundario;
 
+
 }
 
 .tituloFormulario {
@@ -234,9 +229,9 @@ p {
 	font-size: 28px;
 }
 
-.formulario{
-	div{
-	padding-bottom: 20px;
+.formulario {
+	div {
+		padding-bottom: 20px;
 	}
 }
 
@@ -246,18 +241,18 @@ p {
 
 .form-control {
 	width: 100%;
-	
+
 
 }
 
 .form-select {
 	width: 100%;
-	
+
 }
 
 .form-textarea {
 	width: 100%;
-	
+
 }
 
 
@@ -283,7 +278,7 @@ p {
 
 
 
-/*mis h1 */
+/* ------------------------------- Mis H1 --------------------------------------- */
 .title {
 	font-weight: bold;
 	text-align: center;
