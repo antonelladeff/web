@@ -6,6 +6,7 @@
   border: solid 1px black;
   background-color: blue;
   color: white;
+  border-radius: 5px;
 }
 
 .boton--enviar {
@@ -91,11 +92,19 @@ header .elnavega .menu .navbar-nav .nav-item {
   font-size: 50px;
   text-align: center;
   margin-top: 10px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .primerparrafo {
   font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  color: rgb(51, 51, 63);
+}
+
+.segundoparrafo {
+  text-align: justify;
+  padding: 10px;
 }
 
 .boxpadre {
@@ -105,7 +114,7 @@ header .elnavega .menu .navbar-nav .nav-item {
 }
 
 .box {
-  padding: 20px;
+  padding: 5px;
   text-align: center;
 }
 .box img {
@@ -116,10 +125,12 @@ header .elnavega .menu .navbar-nav .nav-item {
 .titulo {
   margin-top: 10px;
   color: white;
+  font-weight: bold;
 }
 
 .parrafo {
   margin-top: 5px;
+  text-align: center;
   color: white;
 }
 
@@ -133,7 +144,10 @@ header .elnavega .menu .navbar-nav .nav-item {
   max-width: 100%;
 }
 .quirofa p {
+  margin-left: 30px;
   margin-top: 10px;
+  margin-right: 30px;
+  font-size: 18px;
 }
 
 .quiro {
@@ -238,23 +252,23 @@ header .elnavega .menu .navbar-nav .nav-item {
 
 .formulario {
   width: 100%;
-  max-width: 500px;
-  height: 650px;
+  max-width: 480px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px;
   background: linear-gradient(rgb(19, 71, 202), rgb(100, 99, 100));
   border: 2px solid rgb(13, 13, 14);
+  border-radius: 10px;
   color: white;
 }
 
 .tituloFormulario {
-  padding-top: 2px;
+  padding-top: 10px;
   margin-top: 1px;
   text-align: center;
+  font-size: 28px;
 }
 
 .form-label {
@@ -273,8 +287,6 @@ header .elnavega .menu .navbar-nav .nav-item {
 
 .form-textarea {
   width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
 }
 
 .texto {
@@ -292,6 +304,7 @@ header .elnavega .menu .navbar-nav .nav-item {
   justify-content: center;
   align-items: center;
   gap: 80px;
+  padding-bottom: 30px;
 }
 
 /*mis h1 */
@@ -299,10 +312,16 @@ header .elnavega .menu .navbar-nav .nav-item {
   font-weight: bold;
   text-align: center;
   font-size: 35px;
-  margin-top: 1%;
+  margin-top: 2%;
   margin-bottom: 2%;
 }
 
+/* Media query para pantallas de 768px tablet*/
+@media screen and (max-width: 768px) {
+  .primerparrafo {
+    font-size: 20px;
+  }
+}
 /* Estilos para dispositivos móviles */
 @media screen and (max-width: 500px) {
   .fondoazul {
@@ -330,9 +349,10 @@ header .elnavega .menu .navbar-nav .nav-item {
   }
   .primerparrafo {
     margin-top: 5px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     margin-left: 5px;
+    text-align: justify;
   }
 }
 /*tamaño celular  - 320px -420px -480px (500px) */
@@ -340,13 +360,18 @@ header .elnavega .menu .navbar-nav .nav-item {
   .quirofa img {
     max-width: 100%;
     padding-top: 15px;
+    transition: 0.5s;
+    object-fit: cover;
+  }
+  .quirofa img .quirofa img:hover {
+    transform: scale(1.2);
   }
   .quirofa img .title {
     font-weight: bold;
     text-align: center;
     font-size: 30px;
-    margin-top: 8%;
-    margin-bottom: 0%;
+    margin-top: 4%;
+    margin-bottom: 2%;
   }
 }
 /* Estilos para dispositivos móviles con pantalla de 320px a 500px */
@@ -359,13 +384,13 @@ header .elnavega .menu .navbar-nav .nav-item {
     font-weight: bold;
     text-align: center;
     font-size: 28px;
-    margin-top: 3%;
-    margin-bottom: 0%;
+    margin-top: 4%;
+    margin-bottom: 2%;
   }
   .t {
     font-weight: bold;
-    margin-top: 6%;
-    margin-bottom: 9%;
+    margin-top: 2%;
+    margin-bottom: 4%;
     text-align: center;
     font-size: 20px;
   }
@@ -397,8 +422,8 @@ header .elnavega .menu .navbar-nav .nav-item {
     font-weight: bold;
     text-align: center;
     font-size: 30px;
-    margin-top: 2%;
-    margin-bottom: 4%;
+    margin-top: 4%;
+    margin-bottom: 2%;
   }
   .botones {
     display: flex;
