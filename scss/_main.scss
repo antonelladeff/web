@@ -122,8 +122,8 @@ h2 {
 	font-weight: bold;
 	margin-top: 10px;
 	margin-bottom: 15px;
-	margin-left: 15px;
-	
+
+
 
 }
 
@@ -214,8 +214,7 @@ p {
 }
 
 .formulario {
-	width: 100%;
-	max-width: 480px;
+	width: 80%;
 	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
@@ -229,31 +228,36 @@ p {
 }
 
 .tituloFormulario {
-
+	padding-top: 10px;
 	margin-top: 1px;
 	text-align: center;
 	font-size: 28px;
+}
+
+.formulario{
+	div{
+	padding-bottom: 20px;
+	}
 }
 
 .form-label {
 	font-size: 16px;
 }
 
-.form-conte {
+.form-control {
 	width: 100%;
+	
 
 }
 
 .form-select {
 	width: 100%;
-	padding: 10px;
-	margin-bottom: 10px;
-
-
+	
 }
 
 .form-textarea {
 	width: 100%;
+	
 }
 
 
