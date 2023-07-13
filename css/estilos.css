@@ -185,6 +185,7 @@ h2 {
   font-weight: bold;
   margin-top: 10px;
   margin-bottom: 15px;
+  margin-left: 15px;
 }
 
 p {
@@ -276,7 +277,6 @@ p {
 }
 
 .tituloFormulario {
-  padding-top: 10px;
   margin-top: 1px;
   text-align: center;
   font-size: 28px;
