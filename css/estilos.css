@@ -393,11 +393,15 @@ header .elnavega .menu .navbar-nav .nav-item {
     margin-top: 6%;
     margin-bottom: 9%;
   }
+  /* Estilos para dispositivos móviles con pantalla de 320px a 500px */
+}
+@media screen and (max-width: 500px) and (max-width: 500px) {
   .contenedordedos {
     width: 100%;
     align-items: center;
     text-align: center;
     border-radius: 10px;
+    padding-top: 100px;
   }
   .contenedordedos h2 {
     text-align: center;
