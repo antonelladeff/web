@@ -60,7 +60,7 @@
 }
 
 .parrafo {
-	margin-top: 5px;
+	margin-top: 10px;
 	text-align: center;
 	color: $colorsecundario;
 }
@@ -77,7 +77,7 @@
 
 	p {
 		margin-left: 30px;
-		margin-top: 10px;
+		margin-top: 2px;
 		margin-right: 30px;
 		font-size: 18px;
 
@@ -85,14 +85,14 @@
 }
 
 .quiro {
-	margin-top: 10px;
+	margin-top: 15px;
 	font-weight: bold;
 }
 
 .espacios {
 	background: linear-gradient(rgb(19, 71, 202), rgb(100, 99, 100));
-	margin-top: 20px;
-	padding-top: 10px;
+	margin-top: 5px;
+	padding-top: 2px;
 	text-align: center;
 	color: $colorsecundario;
 }
@@ -208,7 +208,7 @@ p {
 }
 
 .formulario {
-	width: 80%;
+	width: 65%;
 	margin: 0 auto;
 	display: flex;
 	flex-direction: column;

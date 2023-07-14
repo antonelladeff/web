@@ -43,14 +43,11 @@
 		font-size: 20px;
 		font-weight: bold;
 		margin-left: 5px;
-		text-align: justify;
-
-
+		text-align: center;
 
 	}
 
 }
-
 
 /*tamaño celular  - 320px -420px -480px (500px) */
 @media screen and (max-width:500px) {
@@ -67,12 +64,11 @@
 		text-align: center;
 		font-size: 30px;
 		margin-top: 4%;
-		margin-bottom: 2%;
+		margin-bottom: 3%;
 
 	}
 
 }
-
 
 /* Estilos para dispositivos móviles con pantalla de 320px a 500px */
 @media screen and (max-width: 500px) {
@@ -80,8 +76,8 @@
 		text-align: center;
 		align-items: center;
 		padding-top: 40px;
-	
-		
+
+
 	}
 
 	.title {
@@ -93,39 +89,37 @@
 	}
 
 	/* Estilos para dispositivos móviles con pantalla de 320px a 500px */
-@media screen and (max-width: 500px) {
-	
-	.contenedordedos {
-		width: 100%;
-		align-items: center;
-		text-align: center;
-    	border-radius: 10px;
-		
-	  
-	
-	}
-	.contenedordedos h2 {
-		text-align: center;
-		font-weight: bold;
-		align-items: center;
-		margin-top: 36px;
-		margin-bottom: 27px;
-		
-	
-		
-		
-	}
-	
-	.contenedordedos p {
-		margin-right: 5px;
-		text-align: justify;
-	
-	}
+	@media screen and (max-width: 500px) {
+
+		.contenedordedos {
+			width: 80%;
+			align-items: center;
+			text-align: center;
+			border-radius: 10px;
 
 
+		}
+
+		.contenedordedos h2 {
+			text-align: center;
+			font-weight: bold;
+			align-items: center;
+			margin-top: 36px;
+			margin-bottom: 27px;
+
+
+		}
+
+		.contenedordedos p {
+			margin-right: 5px;
+			text-align: justify;
+
+		}
+
+	}
 }
-}
-	/* Media query para pantallas de 768px tablet*/
+
+/* Media query para pantallas de 768px tablet*/
 @media screen and (max-width:768px) {
 
 	.contact {
@@ -154,8 +148,6 @@
 }
 
 
-
-
 /*tamaño celular  - 320px -420px -480px (500px) */
 @media screen and (max-width:500px) {
 	.title {
@@ -163,21 +155,26 @@
 		text-align: center;
 		font-size: 30px;
 		margin-top: 4%;
-		margin-bottom: 2%;
+		margin-bottom: 3%;
 	}
 
 	.formulario {
 		width: 100%;
-		
-	}
 
+	}
+	.form-control {
+		width: 300px;
+	
+	
+	}
+	
 
 	.botones {
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		gap: 50px;
-		
+
 
 	}
 
