@@ -115,7 +115,7 @@ header .elnavega .menu .navbar-nav .nav-item {
 }
 
 .box {
-  padding: 5px;
+  padding: 10px;
   text-align: center;
 }
 .box img {
@@ -158,7 +158,7 @@ header .elnavega .menu .navbar-nav .nav-item {
 
 .espacios {
   background: linear-gradient(rgb(19, 71, 202), rgb(100, 99, 100));
-  margin-top: 5px;
+  margin-top: 30px;
   padding-top: 2px;
   text-align: center;
   color: white;
