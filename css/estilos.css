@@ -404,7 +404,7 @@ p {
 }
 @media screen and (max-width: 500px) and (max-width: 500px) {
   .contenedordedos {
-    width: 80%;
+    width: 100%;
     align-items: center;
     text-align: center;
     border-radius: 10px;
